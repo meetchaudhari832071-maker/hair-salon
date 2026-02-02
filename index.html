@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Barber Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      background: black;
+      padding: 15px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      color: gold;
+    }
+
+    nav {
+      text-align: center;
+      background: #111827;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .hero {
+      background: #1e293b;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .pricing, .gallery, .work {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    /* Rating */
+    .stars span {
+      font-size: 30px;
+      cursor: pointer;
+      color: gray;
+    }
+    .stars span.active {
+      color: gold;
+    }
+
+    input, textarea, button {
+      padding: 8px;
+      margin: 5px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    footer {
+      background: black;
+      padding: 15px;
+      text-align: center;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+<header>CREW CUTS HAIR SALON</header>
+
+<nav>
+  <a href="#pricing">Pricing</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">Look Sharp, Feel Confident</div>
+
+<section id="pricing">
+  <h2>💰 Pricing</h2>
+  <div class="pricing">
+    <div class="card">Haircut – ₹100</div>
+    <div class="card">Beard Trim – ₹80</div>
+    <div class="card">Hair Wash – ₹50</div>
+    <div class="card">Facial – ₹150</div>
+  </div>
+</section>
+
+
+
+<section id="gallery">
+  <h2>🖼 Gallery</h2>
+  <div class="gallery">
+    <img src="WhatsApp Image 2026-02-02 at 10.18.24 PM (1).jpeg">
+    <img src="WhatsApp Image 2026-02-02 at 10.18.24 PM.jpeg">
+    <img src="img1.jpeg">
+    <img src="img2.jpeg">
+  </div>
+</section>
+
+
+
+<section id="contact">
+  <h2>📞 Contact Us</h2>
+  <p>Phone: 97262 30121</p>
+  <p>Location: pune</p>
+</section>
+
+<footer>
+  © 2026 CREW CUTS HAIR SALON | All Rights Reserved
+</footer>
+
+
+
+</body>
+</html>
